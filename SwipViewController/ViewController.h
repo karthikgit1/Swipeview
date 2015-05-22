@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "SwipeView.h"
+@interface ViewController : UIViewController<UIGestureRecognizerDelegate>
 
 
 @end

@@ -15,6 +15,7 @@
 		26B012CB1A38704800A25F36 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26B012CA1A38704800A25F36 /* Images.xcassets */; };
 		26B012CE1A38704800A25F36 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26B012CC1A38704800A25F36 /* LaunchScreen.xib */; };
 		26B012DA1A38704900A25F36 /* SwipViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B012D91A38704900A25F36 /* SwipViewControllerTests.m */; };
+		26B012E61A38709B00A25F36 /* SwipeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B012E51A38709B00A25F36 /* SwipeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		26B012D31A38704900A25F36 /* SwipViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26B012D81A38704900A25F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26B012D91A38704900A25F36 /* SwipViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipViewControllerTests.m; sourceTree = "<group>"; };
+		26B012E41A38709B00A25F36 /* SwipeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeView.h; sourceTree = "<group>"; };
+		26B012E51A38709B00A25F36 /* SwipeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 		26B012B91A38704800A25F36 /* SwipViewController */ = {
 			isa = PBXGroup;
 			children = (
+				26B012E31A38706C00A25F36 /* SwipeView */,
 				26B012BE1A38704800A25F36 /* AppDelegate.h */,
 				26B012BF1A38704800A25F36 /* AppDelegate.m */,
 				26B012C41A38704800A25F36 /* ViewController.h */,
@@ -120,6 +124,15 @@
 				26B012D81A38704900A25F36 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26B012E31A38706C00A25F36 /* SwipeView */ = {
+			isa = PBXGroup;
+			children = (
+				26B012E41A38709B00A25F36 /* SwipeView.h */,
+				26B012E51A38709B00A25F36 /* SwipeView.m */,
+			);
+			name = SwipeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +239,7 @@
 				26B012BD1A38704800A25F36 /* main.m in Sources */,
 				26B012C61A38704800A25F36 /* ViewController.m in Sources */,
 				26B012C31A38704800A25F36 /* SwipViewController.xcdatamodeld in Sources */,
+				26B012E61A38709B00A25F36 /* SwipeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
